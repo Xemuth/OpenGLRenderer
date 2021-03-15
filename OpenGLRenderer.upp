@@ -1,0 +1,60 @@
+description "\377198,42,150";
+
+acceptflags
+	OLDOPENGL;
+
+uses
+	UFEngine,
+	plugin/glew,
+	plugin/jpg,
+	plugin/bmp,
+	plugin/png,
+	plugin/gif;
+
+file
+	OpenGLRenderer.h,
+	README.md,
+	Service readonly separator,
+	SGLRenderer.h,
+	DataManager.h,
+	Components readonly separator,
+	CGLCamera.h,
+	CGLLight.h,
+	CGLSkyBox.h,
+	PolygonComponents readonly separator,
+	CGLPolygon.h,
+	CGLParallelepiped.h,
+	CGLPyramid.h,
+	CGLCylinder.h,
+	CGLPipe.h,
+	PrimitifComponents readonly separator,
+	CGLRenderer.h,
+	CGLShader.h,
+	CGLModel.h,
+	CGLTexture.h,
+	CGLColor.h,
+	CGLAutonomous.h,
+	CGLRoutineBeforeAfterRendering.h,
+	Structure readonly separator,
+	Definition.h,
+	Model.h,
+	Renderer.h,
+	Shader.h,
+	Texture.h,
+	src readonly separator,
+	src\Util.h,
+	src\VerticesData.h,
+	src\CGLPolygon.cpp,
+	src\CGLParallelepiped.cpp,
+	src\CGLPyramid.cpp,
+	src\CGLCylinder.cpp,
+	src\Model.cpp,
+	src\Renderer.cpp,
+	src\SGLRenderer.cpp,
+	src\Shader.cpp,
+	Shader readonly separator,
+	shaders\FragmentNoTextureShader.glsl highlight cpp,
+	shaders\VertexShader.glsl highlight cpp,
+	shaders\WireFragmentShader.glsl highlight cpp,
+	shaders\WireGeometryShader.glsl highlight cpp;
+
